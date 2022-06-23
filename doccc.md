@@ -191,6 +191,12 @@ GET `/share/info`
 
 link表示中间那个分享链接，剩余a-i这9个值分别从左到右，从上到下对应9处变量
 
+## 点击按钮输入数字后点击确定调用接口
+
+GET `/share/withdraw`
+
+参数amount，输入框内的数字
+
 ## 获取规则页信息
 
 GET `/share/rule`
